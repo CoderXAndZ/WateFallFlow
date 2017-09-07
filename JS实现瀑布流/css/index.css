@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#main{
+	/*父标签相对子标签定位*/
+	/*position: relative;*/
+	
+	/*多栏布局:设置栏宽*/
+	-webkit-column-width: 202px;
+	-moz-column-width: 202px;
+	column-width: 202px;
+}
+
+#main .box{
+	/*内边距*/
+	padding:15px 0 0 15px;
+	/*浮动*/
+	float: left;
+	
+	/*background-color: red;*/
+}
+
+#main .box .pic{
+	/*加边框*/
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	box-shadow: 0 0 1px #ddd;
+	padding: 10px;
+	
+	/*background-color: yellowgreen;*/
+}
+
+#main .box .pic img {
+	width: 165px;
+}
