@@ -5,12 +5,8 @@
 
 #main{
 	/*父标签相对子标签定位*/
-	/*position: relative;*/
+	position: relative;
 	
-	/*多栏布局:设置栏宽*/
-	-webkit-column-width: 202px;
-	-moz-column-width: 202px;
-	column-width: 202px;
 }
 
 #main .box{
